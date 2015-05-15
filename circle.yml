@@ -9,7 +9,7 @@ dependencies:
   override:
     - if [[ -e ~/docker/image.tar ]]; then docker load -i ~/docker/image.tar; fi
     - docker pull shreddd/c_test
-    - mkdir -p ~/docker; docker save shreddd/c_test bash > ~/docker/image.tar
+    - mkdir -p ~/docker; docker save shreddd/c_test > ~/docker/image.tar
 
 test:
   override:
