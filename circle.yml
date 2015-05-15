@@ -1,0 +1,9 @@
+machine:
+  services:
+    - docker
+
+test:
+  override:
+    - docker run shreddd/c_test bash -c "cd /usr/local/c_test && make test"
+
+
