@@ -4,3 +4,6 @@
 
 ## Supported CI services
 * Circle CI - circle.yml
+
+## Beta
+* Jenkins
